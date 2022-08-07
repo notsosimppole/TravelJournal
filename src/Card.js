@@ -3,9 +3,9 @@ import './Card.css'
 export default function Card(props){
     return(
         <div className='card'>
-            <div className='card--img'>
-                <img src = {props.imageUrl} className = "card--img--img"/>
-            </div>
+            
+            <img src = {props.imageUrl} className = "card--img--img"/>
+            
             <div className='card--content'>
                 <span className='card--loc'>
                 <span className='pin'><i class="fas fa-solid fa-location-dot"></i></span>
